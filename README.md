@@ -9,3 +9,8 @@ Dans cet exercice, j’ai créé une classe abstraite `SortieAudio` contenant tr
 
 exercice2
 
+<img width="281" height="131" alt="image" src="https://github.com/user-attachments/assets/fc28cd43-5fa7-4faa-96ac-29d4ed1ab81d" />
+
+
+
+Dans cet exercice, j’ai créé une classe abstraite `Lumiere` contenant une méthode virtuelle pure `intensite()`. J’ai ensuite implémenté trois classes dérivées : `LumiereDirectionnelle`, `LumierePonctuelle` et `LumiereSpot`, chacune avec sa propre méthode de calcul de l’intensité lumineuse. J’ai utilisé une structure `Vec3` pour représenter les positions et les directions dans l’espace 3D. Enfin, j’ai regroupé les différentes sources lumineuses dans un `vector<unique_ptr<Lumiere>>` et créé la fonction `calculerEclairage()` pour additionner les intensités de toutes les lumières en différents points. Cet exercice m’a permis de pratiquer le polymorphisme, les classes abstraites et la gestion automatique de la mémoire avec les pointeurs intelligents.
