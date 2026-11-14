@@ -14,3 +14,10 @@ exercice2
 
 
 Dans cet exercice, j’ai créé une classe abstraite `Lumiere` contenant une méthode virtuelle pure `intensite()`. J’ai ensuite implémenté trois classes dérivées : `LumiereDirectionnelle`, `LumierePonctuelle` et `LumiereSpot`, chacune avec sa propre méthode de calcul de l’intensité lumineuse. J’ai utilisé une structure `Vec3` pour représenter les positions et les directions dans l’espace 3D. Enfin, j’ai regroupé les différentes sources lumineuses dans un `vector<unique_ptr<Lumiere>>` et créé la fonction `calculerEclairage()` pour additionner les intensités de toutes les lumières en différents points. Cet exercice m’a permis de pratiquer le polymorphisme, les classes abstraites et la gestion automatique de la mémoire avec les pointeurs intelligents.
+
+exercice3
+
+<img width="437" height="321" alt="image" src="https://github.com/user-attachments/assets/ac32dc9f-f788-45e6-9896-3d0983590f90" />
+
+
+Dans cet exercice, j’ai créé une classe abstraite `Plugin` contenant les méthodes virtuelles pures `nom()` et `traiter()`, ainsi qu’un destructeur virtuel. J’ai implémenté trois plugins : `CorrecteurOrthographique`, `TraducteurAnglais` et `AnalyseurStyle`, chacun ayant un traitement spécifique du texte. J’ai également ajouté une méthode statique `creerPlugin()` qui permet de créer les plugins selon leur type. Enfin, j’ai utilisé un `vector<unique_ptr<Plugin>>` pour stocker les différents plugins et appliquer leurs traitements successivement au texte saisi par l’utilisateur. Cet exercice m’a permis de pratiquer le polymorphisme, les pointeurs intelligents, les chaînes de caractères et le principe de Factory.
